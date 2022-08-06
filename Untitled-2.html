@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+      $("button").click(function(hide){
+    $("div").animate({
+      // height: 'toggle'
+     
+      //  down:'50px' 
+      height:'toggle'
+    });
+    $("div").css("background-color", "red" );
+    
+    });
+  });
+
+</script> 
+</head>
+<body>
+
+<p>Click the button multiple times to toggle the animation.</p>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button style="background-color: rgba(208, 214, 213);">Hide</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- <button style="background-color: rgb(208, 214, 213);">Show</button></div> -->
+<br>
+<br>
+
+<!-- <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p> -->
+
+<div style=height:320px;width:260px;position:absolute; > <br>
+   &nbsp;&nbsp;&nbsp;&nbsp; <image src="image.jpg" height="280px" width="220px"></div>
+
+</body>
+</html>
